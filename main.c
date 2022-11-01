@@ -9,9 +9,10 @@ int main(int argc, char *argv[]) {
 	int grade[SIZE];
 	int score[SIZE];
 	
-	for (i=0;i<SIZE;i++)
+	for (i=0;i<SIZE;i++) {
 		grade[i]=rand()%100;
 		score[i]=grade[i];
+	}
 	
 	for (i=0;i<SIZE;i++)
 		printf("score[%d]=%d\n", i, score[i]);
